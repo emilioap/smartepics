@@ -1,0 +1,16 @@
+
+body {
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background: url(bg.jpg) top center no-repeat;
+    background-color: black;
+}
+
+.jumbotron {
+    margin-top: 10%;
+}
+
+.card {
+    margin: 10px 0 !important;
+}

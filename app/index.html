@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartEPICS</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type='text/javascript' src='app.js'></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+
+            <div class="searcher">
+                <h1 class="display-4">SmartEPICS</h1>
+                <p class="lead">Informe uma url de um restaurante do site Tripadvisor</p>
+                <hr class="my-4">
+                <p>Ex: https://www.tripadvisor.com.br/Restaurant_Review-g303628-d3261455-Reviews-Vila_Dionisio-Sao_Jose_Do_Rio_Preto_State_of_Sao_Paulo.html</p>
+
+                <div class="input-group mb-3">
+                    <input type="text" name="url" autocomplete="off" class="form-control" placeholder="Cole aqui a sua url" aria-label="Cole aqui a sua url" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-success search" type="button">Buscar Dados</button>
+                    </div>
+                </div>
+
+                <div class="error-msg"></div>
+            </div>
+
+            <div class="result" style="display: none;">
+                <h1 class="display-4 title"></h1>
+                <p class="lead subtitle"></p>
+                <hr class="my-4">
+                <button type="button" class="btn btn-primary btn-sm back">Realizar nova busca</button>
+
+                <div class="gallery row"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
