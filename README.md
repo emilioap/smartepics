@@ -6,6 +6,6 @@ os dados daquele restaurante em formato json.
 
 #Getting started
 
-1. configure a URL da API em /app/app.js
+1. configure a URL da API em /app/app.js, linha 2.
 
-2. rode o arquivo index.html
+2. rode o arquivo /app/index.html e faça a chamada.
