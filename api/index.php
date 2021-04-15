@@ -16,7 +16,6 @@ class Response{
 function getData($url){
 
     if($url) {
-
         if(explode('Restaurant_Review',$url)[0] !== 'https://www.tripadvisor.com.br/') {
             throw new Exception("You need to inform an valid restaurant review URL of tripadvisor!");
         } else {
